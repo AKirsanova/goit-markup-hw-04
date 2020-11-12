@@ -519,6 +519,7 @@ padding-top: 94px;
 }
 
 .footer-content{
+    margin-right: 70px;
     width: 270px;
 }
 
@@ -587,6 +588,12 @@ padding-top: 94px;
 }
 .project-types-list .item-btn:not(:last-child){
     margin-right: 8px;
+}
+
+.project-types-list .item-btn:hover,
+.project-types-list .item-btn:focus-within{
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-img{
@@ -660,6 +667,7 @@ padding-top: 94px;
   }
 
   .footer-text{
+    text-align: left;
     display: block;
     margin-bottom: 20px;
 
